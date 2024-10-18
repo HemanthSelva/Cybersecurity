@@ -73,6 +73,4 @@
 3. **Modified Query**:
    ```sql
    SELECT * FROM users WHERE username = '' OR '1'='1' AND password = '';
-   ```
-4. **Outcome**: The query returns all users, allowing the attacker to bypass authentication.
 ```
